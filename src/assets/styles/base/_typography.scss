@@ -1,0 +1,14 @@
+@use "../variables";
+
+/* Logotipo en Nav */
+@utility nav-logotipo {
+  @apply text-light font-display text-xl;
+}
+
+@utility nav-link {
+  @apply text-[#ffffff8c] hover:text-light;
+}
+
+@utility nav-link-dark {
+  @apply text-dark hover:text-dark/70;
+}

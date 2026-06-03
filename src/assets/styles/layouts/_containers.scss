@@ -1,0 +1,10 @@
+@use "../variables";
+
+/* Ajuste de clase container para centrarla */
+@utility container {
+  @apply mx-auto px-10;
+}
+
+@utility carousel {
+  @apply h-175 overflow-hidden relative flex mt-3 justify-center;
+}

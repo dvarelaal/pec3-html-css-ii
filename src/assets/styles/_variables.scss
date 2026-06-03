@@ -1,0 +1,28 @@
+@theme {
+  /* Tipografías */
+  --font-display: 'Archivo Black', sans-serif;
+  --font-sans: 'Montserrat Variable', sans-serif;
+
+  /* colores personalizados */
+  --color-primary: #4C63DD;
+  --color-secondary: #928B9B;
+  --color-tertiary: #C6D965;
+  --color-danger: #E55733;
+  --color-dark: #161616;
+  --color-light: #f8f9fa; 
+
+  /* Breakpoints iguales que en Bootstrap */
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-2xl: 1400px;
+
+  /* Tamaño máximo de container igual que en Bootstrap */ 
+  --container-max-width-sm: 540px;
+  --container-max-width-md: 720px;
+  --container-max-width-lg: 960px;
+  --container-max-width-xl: 1140px;
+  --container-max-width-2xl: 1320px;
+
+}

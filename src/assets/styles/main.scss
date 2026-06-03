@@ -1,0 +1,25 @@
+/**
+ * Use this file to import partials.
+ * Do not include SCSS code in this file.
+ */
+
+/**
+ * Import dependencies
+ */
+@use "dependencies";
+
+/**
+ * Import layouts
+ * It's a best practice to use a different partial for each page
+ */
+
+@use "base/typography";
+@use "layouts/containers";
+@use "modules/hero";
+@use "modules/buttons";
+@use "modules/cards";
+
+
+/**
+ * Do NOT include anything else in this file!
+ */

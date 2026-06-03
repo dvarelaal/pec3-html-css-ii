@@ -1,0 +1,31 @@
+@use "../variables";
+
+// El código se queda igual que en la PEC anterior
+.hero {
+  &__grid {
+    @supports (display: grid) {
+        display: grid;
+        grid-template-columns: 40% 1fr 15%;
+        grid-template-rows: 1fr 21cqw 1fr;
+        height: 90vh;
+        position: relative;
+        top: auto;
+    }
+  }
+
+  &__text {
+    @supports (display:grid) {
+      grid-row: 1;
+      grid-column: 3;
+      text-align: right;
+      align-self: end;
+    }
+}
+
+  &__info {
+    @supports (display: grid) {
+      grid-row: 1;
+      align-self: end;
+    }
+  }  
+}
